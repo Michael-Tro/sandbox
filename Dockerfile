@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM continuumio/miniconda3
 
 RUN apt-get update && apt-get install -y vim git
 
